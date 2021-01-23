@@ -6,17 +6,22 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Yummy Theme # ex. I m Chuan
-name: Your Name # ex. DONGChuan
-email: my_email_address@lalala.com
+title:  小傅哥的码场
+subtitle: 沉淀、分享、成长，让自己和他人都能有所收获
+name: bugstack虫洞栈
+email: 184172133@qq.com
 location: My location # ex. Nice, France
 company: MyCompany
 company_url: my_company_website
-github_url: my_github_url # ex. https://github.com/DONGChuan
-github_username: # ex. DONGChuan
-description: description_of_your_web_site
-favicon: favicon.png # Image must be in assets/images
-repository: github_username/github_username.github.io # ex. DONGChuan/DONGChuan.github.io
+description: 沉淀、分享、成长，专注于原创专题案例，以最易学习编程的方式分享知识，让自己和他人都能有所收获。目前已完成的专题有；Netty4.x实战专题案例、用Java实现JVM、基于JavaAgent的全链路监控、手写RPC框架、DDD专题案例等。
+keywords: Java、netty、dubbo、asm、Javassist、重学Java设计模式、面经手册、字节码编程、码农职场故事、源码分析、全链路监控、领域驱动设计、源码分析
+encoding: "utf-8"
+favicon: favicon.ico
+
+repository: fuzhengwei/CodeGuide
+github_url: https://github.com/fuzhengwei
+enforce_ssl: bugstack.cn
+
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
