@@ -1,5 +1,23 @@
 # Yummy Jekyll Theme
 
+![http://jekyll.blog.itedus.cn](https://bugstack.cn/assets/images/2020/all-21-3.png)
+​
+- **介绍**：一个简单的，基于引导的主题。特别是对于那些喜欢在网站上展示自己的项目并喜欢做笔记的开发人员。还有一些神奇的特征需要发现。
+- **官网**：[https://github.com/DONGChuan/Yummy-Jekyll](https://github.com/DONGChuan/Yummy-Jekyll)
+- **案例**：[http://jekyll.blog.itedus.cn](http://jekyll.blog.itedus.cn/)
+- **源码**：[https://github.com/BlogGuide/jekyll.blog.github.io](https://github.com/BlogGuide/jekyll.blog.github.io) - *克隆到自己的仓库*
+- **命令**：
+```java
+Fork code and clone
+Run bower install to install all dependencies in bower.json
+Run bundle install to install all dependencies in Gemfile
+Update _config.yml with your own settings.
+Add posts in /_posts
+Commit to your own Username.github.io repository.
+Then come back to star this theme!
+```
+- **特点**：这个博客的主题其实有点重，在写博客的时候需要人工维护的内容较多。但同样这个主题有一个好处就是如果使用Github，那么就直接把项目和博客传到Github即可，不需要本地编译。
+
 A Simple, Bootstrap Based Theme. Especially for developers who like to show their projects on website and like to take notes. There are also some magical features to discover. 
 
 ## [Live Demo](http://dongchuan.github.io/)
