@@ -63,10 +63,9 @@
 }
 
 .site-header-nav-item > a {
-    display: block;
-    padding: 10px;
-    color: #000;
+    color: #9ACFF4;
 }
+
 .site-header-nav-item .submenu {
     display: none;
     position: absolute;
