@@ -9,7 +9,7 @@
 title:  越努力，越幸运；越学习，越幸运。
 subtitle: 沉淀、分享、成长，让自己和他人都能有所收获
 name: 伟鹏要好好学习
-email: 184172133@qq.com
+email: 592743134@qq.com
 location: My location # ex. Nice, France
 company: MyCompany
 company_url: my_company_website
@@ -63,23 +63,35 @@ paginate_path: 'page:num'
 navs:
   -
     href: /
-    label: Home
+    label: 首页
 
   -
     href: /open-source
-    label: Open-Source
+    label: Java基础
 
   -
     href: /blog
-    label: Blog
+    label: 基础框架
+
+  -
+    href: /blog
+    label: 编程工具
+
+  -
+    href: /blog
+    label: 数据库
+
+  -
+    href: /blog
+    label: 并发编程
 
   -
     href: /bookmark
-    label: Bookmark
-
-  -
-    href: /about
-    label: About
+    label: 微服务
+#
+#  -
+#    href: /about
+#    label: About
 
 # Sidebar to show popular repo
 side_bar_repo_limit: 5 # Number of repos to show
