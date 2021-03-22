@@ -67,35 +67,85 @@ navs:
 
   -
     href: /open-source
-    label: Java基础
-    tests:
+    label: 前端知识
+    titles:
       -
-       ref: /open-source
-       title: 编程基础
+        ref: /
+        name: html
 
       -
-       ref: /open-source
-       title: 源码分析
+        ref: /
+        name: css
+
+      -
+        ref: /
+        name: js
+
+      -
+        ref: /
+        name: vue
+
+      -
+        ref: /
+        name: react
+
+      -
+        ref: /
+        name: AngularJS
+
+  -
+    href: /
+    label: Java
+    titles:
+      -
+       ref: /
+       name: 基础知识
+
+      -
+       ref: /
+       name: jvm
+
+      -
+       ref: /
+       name: 源码分析
 
   -
     href: /blog
-    label: 基础框架
+    label: Spring
+    titles:
+      -
+        ref: /
+        name: ioc
 
   -
     href: /blog
     label: 编程工具
+    titles:
+      -
+        ref: /
+        name: git
+
 
   -
     href: /blog
     label: 数据库
+    titles:
+      -
+        ref: /
+        name: mysql
 
-  -
-    href: /blog
-    label: 并发编程
+      -
+        ref: /
+        name: oracle
+
 
   -
     href: /bookmark
     label: 微服务
+    titles:
+      -
+        ref: /
+        name: Docker
 #
 #  -
 #    href: /about

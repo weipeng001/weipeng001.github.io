@@ -12,10 +12,10 @@
                    title="{{ nav.label }}">
                     {{ nav.label }}
                 </a>
-                {% if nav.tests != null %}
+                {% if nav.titles != null %}
                     <ul class="submenu">
-                        {% for test in nav.tests %}
-                        <li><a href="{{ test.ref }}" target=""> {{ test.title }}</a></li>
+                        {% for title in nav.titles %}
+                        <li><a href="{{ title.ref }}" target=""> {{ title.name }}</a></li>
                         {% endfor %}
                     </ul>
                 {% endif %}
