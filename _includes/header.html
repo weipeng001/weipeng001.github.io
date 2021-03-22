@@ -5,21 +5,19 @@
         </a>
         <nav class="site-header-nav" role="navigation">
             {% for nav in site.navs %}
-            <div class=" site-header-nav-item hvr-underline-from-center">
+            <div class=" site-header-nav-item">
                 <a href="{{ nav.href }}"
                    class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item hvr-underline-from-center"
                    target="{{ nav.target | default: _self }}"
                    title="{{ nav.label }}">
                     {{ nav.label }}
                 </a>
-                <ul class="submenu" style="display: none;">
+                <ul class="submenu" >
                     <li><a href="/_posts/2021-03-19-伟鹏要开始好好学习.md" target="">编程基础</a></li>
                     <li><a href="/_posts/2021-03-19-伟鹏要开始好好学习.md" target="">源码分析</a></li>
                 </ul>
-
             </div>
             {% endfor %}
-
         </nav>
     </div>
 </header>
