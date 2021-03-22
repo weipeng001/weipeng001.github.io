@@ -59,8 +59,24 @@
     margin-left:1.25rem;
     font-size: 20px;
 }
-.site-header-nav-item:hover .submenu{display:block;}
 
+.site-header-nav-item .submenu {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 48px;
+    right: 0;
+    z-index: 100;
+    margin-left: -71px;
+    width: 140px;
+    list-style: none;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.site-header-nav-item:hover .submenu{display:block;}
 /******* Scroll Start *******/
 .site-header {
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
