@@ -1,7 +1,7 @@
 ---
 layout: page
-title: All My Blogs
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Take notes about everything new
+title: 伟鹏的博客
+subtitle: <span class="mega-octicon octicon-clippy"></span>越努力，越幸运；越学习，越幸运。
 menu: blog
 css: ['blog-page.css']
 ---
