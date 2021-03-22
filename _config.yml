@@ -136,7 +136,6 @@ navs:
         ref: /
         name: git
 
-
   -
     href: /blog
     label: 数据库
@@ -149,9 +148,8 @@ navs:
         ref: /
         name: oracle
 
-
   -
-    href: /bookmark
+    href: /
     label: 微服务
     titles:
       -
