@@ -13,8 +13,9 @@
                     {{ nav.label }}
                 </a>
                 <ul class="submenu">
-                    <li><a href="/_posts/2021-03-19-伟鹏要开始好好学习.md" target="">编程基础</a></li>
-                    <li><a href="/_posts/2021-03-19-伟鹏要开始好好学习.md" target="">源码分析</a></li>
+                    {% for test in nav.tests %}
+                          <li><a href="{{ test.ref }}" target=""> {{ test.title }}</a></li>
+                    {% endfor %}
                 </ul>
             </div>
             {% endfor %}

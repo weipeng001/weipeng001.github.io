@@ -68,6 +68,13 @@ navs:
   -
     href: /open-source
     label: Java基础
+    tests:
+      -
+       ref: /open-source
+       title: 编程基础
+      -
+       ref: /open-source
+       title: 源码分析
 
   -
     href: /blog
