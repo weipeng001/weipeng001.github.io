@@ -3,9 +3,10 @@
         <a id="site-header-brand" href="/" title="{{ site.name }}">
             <span class="octicon octicon-mark-github"></span> {{ site.name }}
         </a>
+<!--        hvr-underline-from-center-->
         <nav class="site-header-nav" role="navigation">
             {% for nav in site.navs %}
-            <div class="site-header-nav-item hvr-underline-from-center">
+            <div class="site-header-nav-item">
                 <a href="{{ nav.href }}"
                    target="{{ nav.target | default: _self }}"
                    title="{{ nav.label }}">
