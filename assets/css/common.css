@@ -60,6 +60,14 @@
     font-size: 20px;
 }
 
+.site-header-nav submenu{
+    display: none;
+}
+.site-header-nav-item:hover{
+    display: block;
+}
+
+
 /******* Scroll Start *******/
 .site-header {
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
