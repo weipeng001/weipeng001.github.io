@@ -53,13 +53,16 @@
 }
 
 .site-header-nav-item {
-    color: #000;
-    display:inline-block;
-    padding:10px;
-    margin-left:1.25rem;
-    font-size: 20px;
+    position: relative;
+    padding: 0;
+    overflow: visible;
 }
 
+.site-header-nav-item > a {
+    display: block;
+    padding: 10px;
+    color: #000;
+}
 .site-header-nav-item .submenu {
     display: none;
     position: absolute;
