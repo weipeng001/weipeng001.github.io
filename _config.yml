@@ -10,11 +10,11 @@ title:  越努力，越幸运；越学习，越幸运。
 subtitle: 沉淀、分享、成长，让自己和他人都能有所收获
 name: 伟鹏要好好学习
 email: 592743134@qq.com
-location: My location # ex. Nice, France
-company: MyCompany
-company_url: my_company_website
-description: 沉淀、分享、成长，专注于原创专题案例，以最易学习编程的方式分享知识，让自己和他人都能有所收获。目前已完成的专题有；Netty4.x实战专题案例、用Java实现JVM、基于JavaAgent的全链路监控、手写RPC框架、DDD专题案例等。
-keywords: Java、netty、dubbo、asm、Javassist、重学Java设计模式、面经手册、字节码编程、码农职场故事、源码分析、全链路监控、领域驱动设计、源码分析
+#location: My location # ex. Nice, France
+#company: MyCompany
+#company_url: my_company_website
+#description: 沉淀、分享、成长，专注于原创专题案例，以最易学习编程的方式分享知识，让自己和他人都能有所收获。目前已完成的专题有；Netty4.x实战专题案例、用Java实现JVM、基于JavaAgent的全链路监控、手写RPC框架、DDD专题案例等。
+#keywords: Java、netty、dubbo、asm、Javassist、重学Java设计模式、面经手册、字节码编程、码农职场故事、源码分析、全链路监控、领域驱动设计、源码分析
 encoding: "utf-8"
 favicon: favicon.ico
 
@@ -72,6 +72,7 @@ navs:
       -
        ref: /open-source
        title: 编程基础
+
       -
        ref: /open-source
        title: 源码分析
