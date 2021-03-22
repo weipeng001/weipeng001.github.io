@@ -60,10 +60,7 @@
     font-size: 20px;
 }
 
-.site-header-nav submenu{
-    display: none;
-}
-.site-header-nav-item:hover{
+.site-header-nav-item:hover .submenu{
     display: block;
 }
 
