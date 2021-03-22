@@ -60,6 +60,17 @@ paginate: 10
 paginate_path: 'page:num'
 
 # Navigation. If you do not like these modules, just remove them :D
+topics:
+  -
+    html_url: /
+    name: 测试1
+    description: 测试1
+
+  -
+    html_url: /
+    name: 测试2
+    description: 测试2
+
 navs:
   -
     href: /
