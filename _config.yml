@@ -10,18 +10,28 @@ title:  越努力，越幸运；越学习，越幸运。
 subtitle: 沉淀、分享、成长，让自己和他人都能有所收获
 name: 伟鹏要好好学习
 email: 592743134@qq.com
-#location: My location # ex. Nice, France
-#company: MyCompany
-#company_url: my_company_website
-#description: 沉淀、分享、成长，专注于原创专题案例，以最易学习编程的方式分享知识，让自己和他人都能有所收获。目前已完成的专题有；Netty4.x实战专题案例、用Java实现JVM、基于JavaAgent的全链路监控、手写RPC框架、DDD专题案例等。
-#keywords: Java、netty、dubbo、asm、Javassist、重学Java设计模式、面经手册、字节码编程、码农职场故事、源码分析、全链路监控、领域驱动设计、源码分析
 encoding: "utf-8"
 favicon: favicon.ico
 
-repository: fuzhengwei/CodeGuide
 github_url: https://github.com/weipeng001
-enforce_ssl: bugstack.cn
 
+
+# --- Logo --- #
+
+# Image to show in the navigation bar - works best with a square image
+# Remove this parameter if you don't want an image in the navbar
+# 显示在导航栏中的图像
+# 如果您不希望在导航栏中显示图像，请删除此参数
+avatar: "/assets/img/avatar-icon.png"
+
+
+# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
+# 默认情况下，图像被切成圆形。您可以通过设置'round-avatar：false'禁用此行为
+round-avatar: true
+
+# If you want to have an image logo in the top-left corner instead of having the title of the website,
+# then specify the following parameter
+#title-img: /path/to/image
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
@@ -79,30 +89,30 @@ navs:
   -
     href: /open-source
     label: 前端知识
-    titles:
-      -
-        ref: /
-        name: html
-
-      -
-        ref: /
-        name: css
-
-      -
-        ref: /
-        name: js
-
-      -
-        ref: /
-        name: vue
-
-      -
-        ref: /
-        name: react
-
-      -
-        ref: /
-        name: AngularJS
+#    titles:
+#      -
+#        ref: /
+#        name: html
+#
+#      -
+#        ref: /
+#        name: css
+#
+#      -
+#        ref: /
+#        name: js
+#
+#      -
+#        ref: /
+#        name: vue
+#
+#      -
+#        ref: /
+#        name: react
+#
+#      -
+#        ref: /
+#        name: AngularJS
 
   -
     href: /
@@ -123,38 +133,38 @@ navs:
   -
     href: /blog
     label: Spring
-    titles:
-      -
-        ref: /
-        name: ioc
+#    titles:
+#      -
+#        ref: /
+#        name: ioc
 
   -
     href: /blog
     label: 编程工具
-    titles:
-      -
-        ref: /
-        name: git
+#    titles:
+#      -
+#        ref: /
+#        name: git
 
   -
     href: /blog
     label: 数据库
-    titles:
-      -
-        ref: /
-        name: mysql
-
-      -
-        ref: /
-        name: oracle
+#    titles:
+#      -
+#        ref: /
+#        name: mysql
+#
+#      -
+#        ref: /
+#        name: oracle
 
   -
     href: /
     label: 微服务
-    titles:
-      -
-        ref: /
-        name: Docker
+#    titles:
+#      -
+#        ref: /
+#        name: Docker
 #
 #  -
 #    href: /about
