@@ -10,14 +10,13 @@
                 <a href="{{ nav.href }}"
                    target="{{ nav.target | default: _self }}"
                    title="{{ nav.label }}"
-                   target="_blank"
                 >
                     {{ nav.label }}
                 </a>
                 {% if nav.titles != null %}
                     <ul class="submenu">
                         {% for title in nav.titles %}
-                        <li><a href="{{ title.ref }}" target=""> {{ title.name }}</a></li>
+                        <li><a href="{{ title.ref }}" target="_blank"> {{ title.name }}</a></li>
                         {% endfor %}
                     </ul>
                 {% endif %}
