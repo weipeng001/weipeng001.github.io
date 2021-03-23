@@ -2,18 +2,14 @@
     <div class="col-md-12">
         <!-- Blog list -->
         <ul id="posts-list">
-            {% for postA in site.posts %}
-                {% if postA.ceshi != null %}
-                    {% for post in postA.ceshi %}
-                        <li class="posts-list-item" data-title="{{post.title}}">
-                            <div class="posts-content">
-                                <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-                                <a class="posts-list-name bubble-float-left" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                                <span class='circle'></span>
-                            </div>
-                        </li>
-                    {% endfor %}
-                {% endif %}
+            {% for post in site.ceshi %}
+            <li class="posts-list-item" data-title="{{post.title}}">
+                <div class="posts-content">
+                    <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+                    <a class="posts-list-name bubble-float-left" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                    <span class='circle'></span>
+                </div>
+            </li>
             {% endfor %}
         </ul>
         <!-- Pagination -->
