@@ -9,7 +9,9 @@
             <div class="site-header-nav-item">
                 <a href="{{ nav.href }}"
                    target="{{ nav.target | default: _self }}"
-                   title="{{ nav.label }}">
+                   title="{{ nav.label }}"
+                   target="_blank"
+                >
                     {{ nav.label }}
                 </a>
                 {% if nav.titles != null %}

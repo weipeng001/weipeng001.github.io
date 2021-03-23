@@ -11,27 +11,9 @@ subtitle: 沉淀、分享、成长，让自己和他人都能有所收获
 name: 伟鹏要好好学习
 email: 592743134@qq.com
 encoding: "utf-8"
-favicon: hello_world.jpeg
+favicon: avatar-icon.png
 
 github_url: https://github.com/weipeng001
-
-
-# --- Logo --- #
-
-# Image to show in the navigation bar - works best with a square image
-# Remove this parameter if you don't want an image in the navbar
-# 显示在导航栏中的图像
-# 如果您不希望在导航栏中显示图像，请删除此参数
-avatar: "/assets/img/avatar-icon.png"
-
-
-# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-# 默认情况下，图像被切成圆形。您可以通过设置'round-avatar：false'禁用此行为
-round-avatar: true
-
-# If you want to have an image logo in the top-left corner instead of having the title of the website,
-# then specify the following parameter
-title-img: /assets/img/avatar-icon.png
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
