@@ -11,7 +11,7 @@ subtitle: 沉淀、分享、成长，让自己和他人都能有所收获
 name: 伟鹏要好好学习
 email: 592743134@qq.com
 encoding: "utf-8"
-favicon: favicon.ico
+favicon: hello_world.jpeg
 
 github_url: https://github.com/weipeng001
 
@@ -122,13 +122,13 @@ navs:
        ref: /
        name: 基础知识
 
-      -
-       ref: /
-       name: jvm
-
-      -
-       ref: /
-       name: 源码分析
+#      -
+#       ref: /
+#       name: jvm
+#
+#      -
+#       ref: /
+#       name: 源码分析
 
   -
     href: /blog
@@ -137,6 +137,14 @@ navs:
 #      -
 #        ref: /
 #        name: ioc
+
+  -
+    href: /blog
+    label: 面试题
+    titles:
+      -
+        ref: https://www.jianshu.com/p/da9d051dcc3d
+        name: AQS
 
   -
     href: /blog
