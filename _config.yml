@@ -7,8 +7,7 @@
 
 # Site settings
 title:  越努力，越幸运；越学习，越幸运。
-subtitle: 沉淀、分享、成长，让自己和他人都能有所收获
-name: 伟鹏要好好学习
+name: 伟鹏-Java
 email: 592743134@qq.com
 encoding: "utf-8"
 favicon: avatar-icon.png
@@ -18,6 +17,7 @@ github_url: https://github.com/weipeng001
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
+#url: https://weipeng001.github.io
 url: https://weipeng001.github.io
 
 ## Gem
