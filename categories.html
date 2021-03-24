@@ -18,7 +18,7 @@ SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     json: '/search.json',
-    searchResultTemplate: '<li><a href="{url}" title="{desc}">{date| date: '%Y-%m-%d' }-{title}</a></li>',
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{date}-{title}</a></li>',
     noResultsText: '没有搜索到文章',
     limit: 20,
     fuzzy: false
